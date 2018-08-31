@@ -9,7 +9,7 @@ echo ""
 
 #Select the destination folder for the case
 outputDir=$(zenity --file-selection --directory --title="Choose the Output Directory" --filename="/mnt/Cases/")
-echo "Analysis of " "$LOCATION" " will be placed in " "$outputDir"
+echo "Analysis of" "$LOCATION" "will be placed in" "$outputDir"
 echo ""
 
 #Move to the output Directory
