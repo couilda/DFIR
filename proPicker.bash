@@ -13,7 +13,7 @@ echo "Analysis of" "$LOCATION" "will be placed in" "$outputDir"
 echo ""
 
 #Move to the output Directory
-echo "Scootin' to " "$outputDir"
+echo "Scootin' to" "$outputDir"
 cd "$outputDir"
 echo ""
 
