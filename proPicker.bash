@@ -56,3 +56,10 @@ echo ""
 #Echo suggestions
 echo "Suggested settings are to use $PROFILE as your profile with $OFFSET as your Offset"
 echo ""
+
+"Creating volatilityrc file in this directory..."
+
+echo "[DEFAULT]" >> volatilityrc
+echo "PROFILE=""$PROFILE" >> volatilityrc
+echo "LOCATION=file:///""$LOCATION" >> volatilityrc
+echo "KDBG=""$OFFSET"
