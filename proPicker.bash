@@ -46,9 +46,10 @@ done <profileSuggestion.txt
 echo ""
 
 #Identify the longest files (**assume the longer files completed successfully**)
-sort -k1 -n -r profileSummary.txt
 echo "Final verdict on Profiles:"
-cat profileSummary.txt
+echo ""
+sort -k1 -n -r profileSummary.txt
+
 PROFILE=$(cat profileSummary.txt | head -1 | awk '{print $2}'  | cut -d'.' -f2-2)
 echo ""
 
